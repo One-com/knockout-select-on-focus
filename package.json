@@ -1,7 +1,7 @@
 {
   "name": "knockout-select-on-focus",
   "description": "A Knockout binding that select text according to a given pattern when the element is focused",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publishConfig": {
     "registry": "http://npm.one.com"
   },
