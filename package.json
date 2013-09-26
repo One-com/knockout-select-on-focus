@@ -3,7 +3,7 @@
   "description": "A Knockout binding that select text according to a given pattern when the element is focused",
   "version": "0.1.3",
   "keywords": [
-    "knockout"
+    "knockout",
     "binding"
   ],
   "maintainers": [
@@ -22,7 +22,7 @@
   "repository": {
     "type": "git",
     "url": "git.one.com:/git/knockout-select-on-focus.git"
-  }
+  },
   "main": "lib/knockout.selectOnFocus.js",
   "licence": "Standard 3-clause BSD"
 }
