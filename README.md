@@ -4,7 +4,13 @@ This binding selects the text in a input field or a textarea when the field get 
 
 [Click here to see an example](http://one-com.github.io/knockout-select-on-focus/)
 
-Usage:
+## Install
+
+### NPM
+
+`npm install knockout-dragdrop`
+
+## Usage
 
     <input type="text" data-bind="selectOnFocus: true">
     Selects all text when the element is focused.
