@@ -1,4 +1,4 @@
-/*global ko, jQuery*/
+/*global ko*/
 
 // Github repository: https://github.com/One-com/knockout-dragdrop
 // License: standard 3-clause BSD license https://raw.github.com/One-com/knockout-dragdrop/master/LICENCE
@@ -20,12 +20,12 @@
 (function (factory) {
     if (typeof define === "function" && define.amd) {
         // AMD anonymous module with hard-coded dependency on "knockout"
-        define(["knockout", "jquery"], factory);
+        define(["knockout"], factory);
     } else {
         // <script> tag: use the global `ko` and `jQuery`
-        factory(ko, jQuery);
+        factory(ko);
     }
-})(function (ko, $) {
+})(function (ko) {
     function getOptions(valueAccessor) {
         var options = ko.utils.unwrapObservable(valueAccessor());
         if (options.pattern) {
@@ -56,7 +56,7 @@
     ko.bindingHandlers.selectOnFocus = {
         init: function (element, valueAccessor) {
             var firstFocus = true;
-            $(element).on('focus', function (e) {
+            ko.utils.registerEventHandler(element, 'focus', function (e) {
                 setTimeout(function () {
                     var options = getOptions(valueAccessor);
                     var pattern = ko.utils.unwrapObservable(options.pattern);
@@ -80,4 +80,3 @@
         }
     };
 });
-

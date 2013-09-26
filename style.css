@@ -1,0 +1,12 @@
+body {
+    padding: 20px 60px;
+}
+
+input {
+    border: thin solid gray;
+    padding: 4px;
+}
+
+h2 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

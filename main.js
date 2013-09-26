@@ -1,0 +1,2 @@
+/*global ko*/
+ko.applyBindings({});
