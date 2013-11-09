@@ -8,7 +8,7 @@ This binding selects the text in a input field or a textarea when the field get 
 
 ### NPM
 
-`npm install knockout-dragdrop`
+`npm install knockout-select-on-focus`
 
 ## Usage
 
