@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git.one.com:/git/knockout-select-on-focus.git"
+    "url": "git@github.com:One-com/knockout-select-on-focus.git"
   },
   "main": "lib/knockout.selectOnFocus.js",
   "licence": "Standard 3-clause BSD"
